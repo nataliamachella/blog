@@ -12,8 +12,8 @@ export default function Ralated() {
 
       <div className="flex flex-col gap-10">
         {data.map((value, index) => (
-          <div className="flex flex-row">
-            <Post key={index} data={value}></Post>
+          <div className="flex flex-row" key={index}>
+            <Post data={value}></Post>
           </div>
         ))}
       </div>
@@ -32,6 +32,7 @@ function Post({ data }) {
             className="rounded"
             width={300}
             height={200}
+            alt={title}
           />
         </Link>
       </div>

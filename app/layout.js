@@ -6,7 +6,7 @@ const poppins = Poppins({ subsets: ["latin"], weight: ["100", "400", "800"] });
 export const metadata = {
   title: "Pasteleria Saludable | Naty ",
   description:
-    "Pastelería Saludable sin gluten, sin lácteos, sin azúcar y Emprendimientos Pasteleros",
+    "Pastelería Saludable sin gluten, sin lácteos, sin azúcar y sin huevo.",
 };
 
 export default function RootLayout({ children }) {

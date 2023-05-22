@@ -14,7 +14,12 @@ export default function article({ recipe }) {
       </p>
 
       <div className="py-10">
-        <Image src={recipe.image || "/"} width={900} height={600}></Image>
+        <Image
+          src={recipe.image || "/"}
+          width={900}
+          height={600}
+          alt={recipe.title}
+        ></Image>
       </div>
 
       <article className="text-center text-gray-600 text-lg flex flex-col gap-4 max-w-prose">
